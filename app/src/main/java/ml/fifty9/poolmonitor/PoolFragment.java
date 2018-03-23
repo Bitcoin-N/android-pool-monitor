@@ -87,8 +87,8 @@ public class PoolFragment extends Fragment {
             try {
                 URI uri = new URI(poolString);
                 String path = uri.getHost();
-                if (path.equals("https://croat.pool.cat:8119/")) {
-                    path = "croat.pool.cat";
+                if (path.equals("pool.bitcoinn.biz:8133")) {
+                    path = "pool.bitcoinn.biz";
                 }
                 poolNameText.setText(path);
             }
@@ -107,7 +107,7 @@ public class PoolFragment extends Fragment {
             populateChart();
         }
         catch (Exception e) {
-            Log.d("C", e.getLocalizedMessage());
+            Log.d("E", e.getLocalizedMessage());
         }
 
         // Refresh items
@@ -122,8 +122,8 @@ public class PoolFragment extends Fragment {
 
 
     public String convertCoin(Long coins) {
-        coins = coins/100000000/1000;
-        return String.valueOf(coins) + " CROAT";
+        coins = coins/1000000;
+        return String.valueOf(coins) + " BTN";
     }
 
     public String by100 (Long coin) {

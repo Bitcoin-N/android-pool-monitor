@@ -134,8 +134,8 @@ public class DashboardFragment extends Fragment {
 
     public String convertCoin(String coin) {
         int coins = Integer.parseInt(coin);
-        coins = coins/1000000/1000;
-        return String.valueOf(coins) + " CROAT";
+        coins = coins/1000000;
+        return String.valueOf(coins) + " BTN";
     }
 
     public String getDate(String timeStampString) {
@@ -169,13 +169,13 @@ public class DashboardFragment extends Fragment {
 
         String bal = stats.getBalance();
         if (null == bal)
-            balance.setText("0 CROAT");
+            balance.setText("0 BTN");
         else
             balance.setText(convertCoin(bal));
 
         String paidBal = stats.getPaid();
         if (null == paidBal)
-            paid.setText("0 CROAT");
+            paid.setText("0 BTN");
         else
             paid.setText(convertCoin(paidBal));
 

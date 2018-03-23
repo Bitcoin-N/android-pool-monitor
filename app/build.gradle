@@ -4,14 +4,14 @@ android {
     signingConfigs {
         config {
             keyAlias "IB313184"
-            keyPassword "xxxxxxx"
+            keyPassword "xxxxxxxxxxxx"
             storeFile file("config/release.keystore")
-            storePassword "xxxxxxxxx"
+            storePassword "xxxxxxxxxxxxxx"
         }
     }
     compileSdkVersion 26
     defaultConfig {
-        applicationId "org.croat.poolmonitor"
+        applicationId "org.btn.poolmonitor"
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 13

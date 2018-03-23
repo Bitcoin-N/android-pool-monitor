@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="categories">
-            <item>Pool.cat</item>
-            <item>Fastpool.eu</item>
-            <item>Communitypool.org</item>
-            <item>Croat.cat</item>
-            <item>Netweekend.org</item>
-            <item>Croatpirineus.cat</item>
-            <item>Croatpool.com</item>
-            <item>Hopto.org</item>
-            <item>Globalpool.cc</item>
+            <item>OFICIAL POOL</item>
+            <item>Multipool</item>
+            <item>Criptominando.es</item>
+            <item>Dreampool.info</item>
+            <item>Superblockchain.con-ip.com</item>
+            <item>Gonspool.com</item>
     </string-array>
 
     <string-array name="urls">
-        <item>https://croat.pool.cat:8119/</item>
-        <item>https://bcncroat.fastpool.eu:8119/</item>
-        <item>http://165.227.148.241:8117/</item>
-        <item>http://178.22.66.126:8117/</item>
-        <item>http://croat.netweekend.org:1117/</item>
-        <item>https://croat.netips.net:8118/</item>
-        <item>https://croatpool.com:8119/</item>
-        <item>http://croatbkk.hopto.org:8000/</item>
-        <item>http://111.231.72.116:8103/</item>
+        <item>http://pool.bitcoinn.biz:8133/</item>
+        <item>https://bitcoinn.multipool.es:8118/</item>
+        <item>https://bitcoinn.criptominando.eu:8216/</item>
+        <item>https://btn.dreampool.info/api/</item>
+        <item>http://superblockchain.con-ip.com:8133/</item>
+        <item>http://btn.gonspool.com:8133/</item>
     </string-array>
 
 

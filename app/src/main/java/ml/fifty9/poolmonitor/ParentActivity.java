@@ -130,7 +130,7 @@ public class ParentActivity extends AppCompatActivity{
                     manager.cancelAll();
                 }
             }
-                setUpSharedPrefs(prefs);
+//                setUpSharedPrefs(prefs);
         };
 
         poolChangeListener = (prefs, key) -> {
@@ -138,7 +138,8 @@ public class ParentActivity extends AppCompatActivity{
             Boolean firstTime = prefs.getBoolean("first", true);
             if (!firstTime) {
                 if (key.equals("url")) {
-                   String pool = prefs.getString("url", "https://croat.pool.cat:8119/");
+                   String pool = prefs.getString("url", "http://pool.bitcoinn.biz:8133/");
+              //     String pool = prefs.getString("url", "http://pool.bitcoinn.biz/api/");
                     updateUserInfo();
                     retrofitAPI = RetrofitService.getAPI(pool);
                     callAPI();

@@ -17,36 +17,36 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:layout_width="369dp"
-                android:layout_height="252dp"
-                android:src="@drawable/croat_stacked_color" />
+                android:layout_width="361dp"
+                android:layout_height="190dp"
+                android:src="@drawable/logo_trans" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="CROAT Mining Pool Monitor\nv1.0"
+                android:text="BTN Mining Pool Monitor\nv1.0"
                 android:textSize="16dp"
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/develop_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/develop_text"
-                android:text="Developed By"
                 android:gravity="center"
-                android:paddingTop="20dp" />
+                android:paddingTop="20dp"
+                android:text="Developed By" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="131dp"
-                android:layout_gravity="center"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="152dp"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="18dp">
@@ -55,7 +55,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Nicolas Alarcon"
+                        android:text="Devs bitcoin nova"
                         android:textSize="16dp"
                         android:textStyle="bold" />
 
@@ -65,13 +65,13 @@
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:gravity="center"
-                        android:text="CmhutGCeLpSeAqKe7TW6z4XH9XkGrZXkbFzUnu3Dkb8AGd3pNP75MigUk1gM8EbW7cYFm4NGyeYG1Uqne9kPYZEo6WoXMb9" />
+                        android:text="EAsX15ieXY1NAk9Yu3NoVBfBqUgsFPsv47Ff4W1t491vHiD8fyGHD7nR7gVk1FrcbP2d2mJfBt3M45NgbV6ZRcSdHixcSPH" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="33dp"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="18dp">
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="If you like this project, consider donating some croats. Cheers!"/>
+                android:text="If you like this project, consider donating some turtles. Cheers!"/>
 
 
         </LinearLayout>

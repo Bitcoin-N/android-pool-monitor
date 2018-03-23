@@ -73,7 +73,7 @@ public class PayoutFragment extends Fragment {
             for(int i = 0; i < payments.size(); i+=2){
                 paymentDetails = payments.get(i).split(":",3);
                 String id = paymentDetails[0];
-                String price = String.valueOf(Float.valueOf(paymentDetails[1])/100000000/1000) + " CROAT";
+                String price = String.valueOf(Float.valueOf(paymentDetails[1])/1000000) + " BTN";
                 String timeStamp = payments.get(i+1);
                 payouts.add(new PayoutsPOJO(id,price,timeStamp));
             }
@@ -125,7 +125,7 @@ public class PayoutFragment extends Fragment {
 
             paymentId = holder.paymentId;
             paymentId.setMovementMethod(LinkMovementMethod.getInstance());
-            String text = "<a href='http://178.22.71.122/?hash=" + payoutsPOJO.getPaymentId() + "#blockchain_transaction'>" + payoutsPOJO.getPaymentId() + "</a>";
+            String text = "<a href='http://pool.bitcoinn.biz/?hash=" + payoutsPOJO.getPaymentId() + "#blockchain_transaction'>" + payoutsPOJO.getPaymentId() + "</a>";
             paymentId.setText(Html.fromHtml(text));
         }
 
