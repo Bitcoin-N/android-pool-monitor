@@ -1,3 +1,5 @@
+<img src="http://pool.bitcoinn.biz/bitcoin-nova.png">
+
 # Pool Monitor [![Build Status](https://travis-ci.org/adigupta13/TRTLMiningPoolObserver.svg?branch=master)](https://travis-ci.org/adigupta13/TRTLMiningPoolObserver)
 
 An android application to monitor mining stats for all major Turtle Coin mining pools running cryptonote
@@ -13,24 +15,15 @@ Features:
 * Open Source. Pool Monitor is Free and Open Source, enabling anyone to verify its security by auditing the code.
 
 ## List of Pools supported
-Currently the app supports 16 pools:
+Currently the app supports 7 pools:
 
-* [Z-Pool.com](http://z-pool.com/)
-* [SlowandSteady.fun](http://slowandsteady.fun/)
-* [Eu.turtlepool.space](http://eu.turtlepool.space/)
-* [Hk.turtlepool.space](http://hk.turtlepool.space/)
-* [Us.turtlepool.space](http://us.turtlepool.space/)
-* [Ny.minetrtl.us](http://ny.minetrtl.us/)
-* [Trtl.radicaldelta.org](http://trtl.radicaldelta.org/)
-* [Auspool.turtleco.in](http://auspool.turtleco.in/)
-* [Pool.turtleco.in](http://pool.turtleco.in/)
-* [Trtlpool.ninja](http://trtlpool.ninja/)
-* [Pool.trtl.me](http://pool.trtl.me/)
-* [Crytoknight.cc](http://cryptoknight.cc/)
-* [Trtl.ninja](http://trtl.ninja/)
-* [Atpool.party](http://atpool.party/)
-* [Sewer.ninja](http://sewer.ninja)
-* [Turtlecoinpool.ml](http://turtlecoinpool.ml)
+* Official Pool - http://pool.bitcoinn.biz/
+* Multipool.es - https://bitcoinn.multipool.es
+* Criptominando.eu - https://bitcoinn.criptominando.eu/
+* Dreampool.info - https://btn.dreampool.info/
+* superblockchain.con-ip.com - http://superblockchain.con-ip.com/btn/
+* btn.gonspool.com - http://btn.gonspool.com/
+* btn.bobpool.cc - http://btn.bobpool.cc/
 
 ## Contributing
 
