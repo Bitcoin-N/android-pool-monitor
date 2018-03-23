@@ -15,22 +15,15 @@ Features:
 ## List of Pools supported
 Currently the app supports 16 pools:
 
-* [Z-Pool.com](http://z-pool.com/)
-* [SlowandSteady.fun](http://slowandsteady.fun/)
-* [Eu.turtlepool.space](http://eu.turtlepool.space/)
-* [Hk.turtlepool.space](http://hk.turtlepool.space/)
-* [Us.turtlepool.space](http://us.turtlepool.space/)
-* [Ny.minetrtl.us](http://ny.minetrtl.us/)
-* [Trtl.radicaldelta.org](http://trtl.radicaldelta.org/)
-* [Auspool.turtleco.in](http://auspool.turtleco.in/)
-* [Pool.turtleco.in](http://pool.turtleco.in/)
-* [Trtlpool.ninja](http://trtlpool.ninja/)
-* [Pool.trtl.me](http://pool.trtl.me/)
-* [Crytoknight.cc](http://cryptoknight.cc/)
-* [Trtl.ninja](http://trtl.ninja/)
-* [Atpool.party](http://atpool.party/)
-* [Sewer.ninja](http://sewer.ninja)
-* [Turtlecoinpool.ml](http://turtlecoinpool.ml)
+* https://croat.pool.cat
+* https://bcncroat.fastpool.eu
+* http://165.227.148.241
+* http://178.22.66.126
+* http://croat.netweekend.org
+* https://croat.netips.net
+* https://croatpool.com
+* http://croatbkk.hopto.org
+* http://111.231.72.116
 
 ## Contributing
 
