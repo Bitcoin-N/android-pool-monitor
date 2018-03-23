@@ -87,8 +87,8 @@ public class PoolFragment extends Fragment {
             try {
                 URI uri = new URI(poolString);
                 String path = uri.getHost();
-                if (path.equals("api.z-pool.com")) {
-                    path = "z-pool.com";
+                if (path.equals("https://croat.pool.cat:8119/")) {
+                    path = "croat.pool.cat";
                 }
                 poolNameText.setText(path);
             }
@@ -107,7 +107,7 @@ public class PoolFragment extends Fragment {
             populateChart();
         }
         catch (Exception e) {
-            Log.d("E", e.getLocalizedMessage());
+            Log.d("C", e.getLocalizedMessage());
         }
 
         // Refresh items
@@ -122,8 +122,8 @@ public class PoolFragment extends Fragment {
 
 
     public String convertCoin(Long coins) {
-        coins = coins/100;
-        return String.valueOf(coins) + " TRTL";
+        coins = coins/100000000/1000;
+        return String.valueOf(coins) + " CROAT";
     }
 
     public String by100 (Long coin) {

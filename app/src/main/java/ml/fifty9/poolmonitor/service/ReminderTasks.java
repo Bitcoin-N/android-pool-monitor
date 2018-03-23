@@ -81,7 +81,7 @@ public class ReminderTasks {
                     public String convertCoin(String coin) {
                         int coins = Integer.parseInt(coin);
                         coins = coins/100;
-                        return String.valueOf(coins) + " TRTL";
+                        return String.valueOf(coins) + " CROAT";
                     }
 
                     public String getDate(String timeStampString) {
@@ -115,7 +115,7 @@ public class ReminderTasks {
                     public String getBalanceString(String balance) {
                         String balanceString;
                         if (null == balance) {
-                            balanceString = "Balance: 0 TRTL";
+                            balanceString = "Balance: 0 CROAT";
                         }
                         else {
                             balanceString = "Balance: " + convertCoin(balance);
@@ -127,7 +127,7 @@ public class ReminderTasks {
                     public String getPaidString(String paid) {
                         String balanceString;
                         if (null == paid) {
-                            balanceString = "Paid: 0 TRTL";
+                            balanceString = "Paid: 0 CROAT";
                         }
                         else {
                             balanceString = "Paid: " + convertCoin(paid);

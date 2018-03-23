@@ -21,7 +21,7 @@ import ml.fifty9.poolmonitor.R;
 
 public class NotificationUtils {
     private static final int TRTL_MINING_INTENT_ID = 123;
-    private static final String TRTL_NOTIFICATION_CHANNEL = "trtl";
+    private static final String TRTL_NOTIFICATION_CHANNEL = "croat";
     private static final int TRTL_MINING_REMINDER_ID = 1234;
 
     public static void remindUserAboutTRTL(Context context, String balanceTitle, String content, String hashRate){

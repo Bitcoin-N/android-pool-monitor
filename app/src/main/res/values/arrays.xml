@@ -1,51 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="categories">
-            <item>Z-pool.com</item>
-            <item>Slowandsteady.fun</item>
-            <item>Eu.turtlepool.space</item>
-            <item>Hk.turtlepool.space</item>
-            <item>Us.turtlepool.space</item>
-            <item>Ny.minetrtl.us</item>
-            <item>Trtl.radicaldelta.org</item>
-            <item>Auspool.turtleco.in</item>
-            <!--<item>Xk.is</item>-->
-            <!--<item>Turtlecoinpool.Ddns.Net</item>-->
-            <item>Pool.Turtleco.In</item>
-            <item>Trtlpool.Ninja</item>
-            <item>Pool.Trtl.Me</item>
-            <item>Cryptoknight.cc</item>
-            <item>Trtl.Ninja</item>
-            <item>Atpool.party</item>
-            <!--<item>Etnchina.io</item>-->
-            <item>Sewer.ninja</item>
-            <item>Turtlecoinpool.ml</item>
-            <item>Unipool.pro</item>
-            <item>Tortugamor.cf</item>
+            <item>Pool.cat</item>
+            <item>Fastpool.eu</item>
+            <item>Communitypool.org</item>
+            <item>Croat.cat</item>
+            <item>Netweekend.org</item>
+            <item>Croatpirineus.cat</item>
+            <item>Croatpool.com</item>
+            <item>Hopto.org</item>
+            <item>Globalpool.cc</item>
     </string-array>
 
     <string-array name="urls">
-        <item>http://z-pool.com/api/</item>
-        <item>http://slowandsteady.fun:8119/</item>
-        <item>http://eu.turtlepool.space/api/</item>
-        <item>http://hk.turtlepool.space/api/</item>
-        <item>http://us.turtlepool.space/api/</item>
-        <item>http://ny.minetrtl.us:8117/</item>
-        <item>http://trtl.radicaldelta.org:8117/</item>
-        <item>http://auspool.turtleco.in/api/</item>
-        <!--<item>https://xk.is/api/</item>-->
-        <!--<item>http://turtlecoinpool.ddns.net:8127/</item>-->
-        <item>http://us.turtlepool.space/api/</item>
-        <item>http://trtlpool.ninja/api/</item>
-        <item>http://pool.trtl.me:8117/</item>
-        <item>http://78.46.85.142:6229/</item>
-        <item>https://trtl.ninja/api/</item>
-        <item>http://turtle-eu.atpool.party:8117/</item>
-        <!--<item>http://118.31.18.78:8117/</item>-->
-        <item>http://sewer.ninja:8117/</item>
-        <item>https://turtlecoinpool.ml:8443/</item>
-        <item>https://pool.turtlecoin.fr:8117/</item>
-        <item>http://tortugamor.cf:8117/</item>
+        <item>https://croat.pool.cat:8119/</item>
+        <item>https://bcncroat.fastpool.eu:8119/</item>
+        <item>http://165.227.148.241:8117/</item>
+        <item>http://178.22.66.126:8117/</item>
+        <item>http://croat.netweekend.org:1117/</item>
+        <item>https://croat.netips.net:8118/</item>
+        <item>https://croatpool.com:8119/</item>
+        <item>http://croatbkk.hopto.org:8000/</item>
+        <item>http://111.231.72.116:8103/</item>
     </string-array>
 
 

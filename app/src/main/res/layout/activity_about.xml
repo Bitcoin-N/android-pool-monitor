@@ -17,17 +17,17 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/turtlecoin_stacked_color"/>
+                android:layout_width="369dp"
+                android:layout_height="252dp"
+                android:src="@drawable/croat_stacked_color" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="16dp"
                 android:gravity="center"
-                android:text="TRTL Mining Pool Monitor\nv1.3.1" />
+                android:text="CROAT Mining Pool Monitor\nv1.0"
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -39,33 +39,33 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center">
+                android:layout_height="131dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
 
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
                     android:gravity="center"
+                    android:orientation="vertical"
                     android:padding="18dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="16dp"
-                        android:textStyle="bold"
                         android:gravity="center"
-                        android:text="Aditya Gupta" />
+                        android:text="Nicolas Alarcon"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/aditya_address_trtl"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:gravity="center"
-                        android:id="@+id/aditya_address_trtl"
-                        android:text="@string/aditya_trtl_address" />
+                        android:text="CmhutGCeLpSeAqKe7TW6z4XH9XkGrZXkbFzUnu3Dkb8AGd3pNP75MigUk1gM8EbW7cYFm4NGyeYG1Uqne9kPYZEo6WoXMb9" />
 
                 </LinearLayout>
 
@@ -79,18 +79,18 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="16dp"
                         android:gravity="center"
-                        android:textStyle="bold"
-                        android:text="Hemant Joshi" />
+                        android:text=""
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/hemant_address_trtl"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:gravity="center"
-                        android:id="@+id/hemant_address_trtl"
-                        android:text="@string/hemant_trtl_address" />
+                        android:text="" />
 
                 </LinearLayout>
 
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="If you like this project, consider donating some turtles. Cheers!"/>
+                android:text="If you like this project, consider donating some croats. Cheers!"/>
 
 
         </LinearLayout>

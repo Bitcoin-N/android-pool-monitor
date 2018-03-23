@@ -34,7 +34,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="Wallet Address"
-                android:id="@+id/wallet_text"/>
+                android:id="@+id/wallet_text"
+                android:maxLength="95" />
 
             <Button
                 android:id="@+id/submit"
