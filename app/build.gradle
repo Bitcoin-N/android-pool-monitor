@@ -11,7 +11,7 @@ android {
     }
     compileSdkVersion 26
     defaultConfig {
-        applicationId "org.btn.poolmonitor"
+        applicationId "org.croat.poolmonitor"
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 13
